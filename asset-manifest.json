@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Ksense-React-Challenge/static/css/main.4f9606e6.css",
-    "main.js": "/Ksense-React-Challenge/static/js/main.d38c2557.js",
+    "main.js": "/Ksense-React-Challenge/static/js/main.524b66c5.js",
     "static/js/787.26b1b45f.chunk.js": "/Ksense-React-Challenge/static/js/787.26b1b45f.chunk.js",
     "static/media/logo.svg": "/Ksense-React-Challenge/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Ksense-React-Challenge/index.html",
     "main.4f9606e6.css.map": "/Ksense-React-Challenge/static/css/main.4f9606e6.css.map",
-    "main.d38c2557.js.map": "/Ksense-React-Challenge/static/js/main.d38c2557.js.map",
+    "main.524b66c5.js.map": "/Ksense-React-Challenge/static/js/main.524b66c5.js.map",
     "787.26b1b45f.chunk.js.map": "/Ksense-React-Challenge/static/js/787.26b1b45f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f9606e6.css",
-    "static/js/main.d38c2557.js"
+    "static/js/main.524b66c5.js"
   ]
 }
