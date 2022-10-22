@@ -39,7 +39,6 @@ function organizeData(data){
 
 function App() {
   async function values(){
-    console.log("Bro")
     const data = await getData();
     // Create element for every user gathered and append them to my user row
     data[0].forEach(user => {
@@ -53,9 +52,8 @@ function App() {
     document.getElementById("userRow").appendChild(entry);
   })
 }
-
+  // Github pages wouldn't run useEffect like my local server would, so I had to improvise
   values();
-  console.log("bro");
 
   return (
     <div className="App">
