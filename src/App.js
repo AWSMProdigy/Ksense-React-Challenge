@@ -1,10 +1,11 @@
+import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 
 async function getData(){
-  const users = await fetch('http://jsonplaceholder.typicode.com/users');
+  const users = await fetch('https://jsonplaceholder.typicode.com/users');
   const usersJson = await users.json();
-  const posts = await fetch('http://jsonplaceholder.typicode.com/posts');
+  const posts = await fetch('https://jsonplaceholder.typicode.com/posts');
   const postsJson = await posts.json();
   return [usersJson, postsJson];
 }
@@ -37,8 +38,8 @@ function organizeData(data){
 
 
 function App() {
-  React.useEffect(() => async function(){
-    console.log("Please.");
+  async function values(){
+    console.log("Bro")
     const data = await getData();
     // Create element for every user gathered and append them to my user row
     data[0].forEach(user => {
@@ -51,12 +52,15 @@ function App() {
     entry.appendChild(content);
     document.getElementById("userRow").appendChild(entry);
   })
-  })
+}
+
+  values();
+  console.log("bro");
 
   return (
     <div className="App">
       <div className="headerBar">
-        <h1>Ksense Coding React Challenge</h1>
+        <h1>Ksense Coding Challenge</h1>
     </div>
     <div className="flexBox" id="flexBox">
         <h1>Users</h1>
@@ -66,6 +70,7 @@ function App() {
     </div>
     </div>
   );
+  
 }
 
 export default App;
