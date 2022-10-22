@@ -43,7 +43,7 @@ function App() {
     // Create element for every user gathered and append them to my user row
     data[0].forEach(user => {
     var entry = document.createElement("button");
-    entry.classNameName = "entry";
+    entry.className = "entry";
     var content = document.createTextNode(user.name);
     entry.onclick = function(){
         organizeData([user, data[1]]);
@@ -52,6 +52,7 @@ function App() {
     document.getElementById("userRow").appendChild(entry);
   })
   }, [])
+
   return (
     <div className="App">
       <div className="headerBar">
