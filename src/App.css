@@ -12,9 +12,11 @@ html, body{
 
 #userRow{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: row;
   width: fit-content;
+  flex-wrap: wrap;
+
 }
 
 #postCol{
